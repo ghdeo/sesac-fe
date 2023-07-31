@@ -39,4 +39,5 @@ div.main {
 
 #wrap>footer {
     padding: 10px 40px;
+    border-top: 1px solid black;
 }
