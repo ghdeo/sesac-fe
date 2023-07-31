@@ -1,0 +1,41 @@
+.t {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    background-color: silver;
+
+}
+
+/*div {*/
+/*    border: 1px solid silver;*/
+/*}*/
+
+/*div.container {*/
+/*    height: 100vh;*/
+/*    background-color: gray;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*div.d1 {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*}*/
+
+/*div.d1:nth-child(odd) {*/
+/*    background-color: skyblue;*/
+/*    padding: 20px 0px;*/
+/*}*/
+
+/*div.d1:nth-child(even) {*/
+/*    background-color: pink;*/
+/*    height: 40px 0px;*/
+/*}*/

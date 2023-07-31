@@ -1,0 +1,42 @@
+#wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+
+header nav {
+    margin-left: 600px;
+}
+
+li {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 20px 30px;
+    color: white;
+}
+
+aside {
+    margin-right: 200px;
+}
+
+div.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+#wrap>footer {
+    padding: 10px 40px;
+}

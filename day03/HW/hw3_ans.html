@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="save">
+        <fieldset>
+            <legend>수강 신청인</legend>
+            <ul>
+                <li>
+                    <label for="student-num"></label>
+                    <input type="text" id="student-num" name="student-num">
+                    <label for="student-name"></label>
+                    <input type="text" id="student-name" name="student-name">
+                </li>
+                <li>
+                    <label for="dept">학과</label>
+                    <select id="dept" name="dept">
+                        <option value="건축공학과">건축공학과</option>
+                        <option value="컴퓨터공학과">컴퓨터공학과</option>
+                        <option value="경영학과">경영학과</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>수강 과목을 선택하세요</legend>
+            <ul>
+                <li>
+                    <label for="color">선호색상</label>
+                    <input type="color" id="color" name="color">
+                </li>
+                <li>
+                    <label>신청 과목(회화)</label>
+                    <input type="radio" id="beginner" value="beginner" name="course" checked>
+                    <label for="beginner">영어 회화(초급)</label>
+                    <input type="radio" id="intermediate" value="intermediate" name="course">
+                    <label for="intermediate">영어 회화(중급)</label>
+                    <input type="radio" id="advanced" value="advanced" name="course">
+                    <label for="advanced">영어 회화(고급)</label>
+                </li>
+                <li>
+                    <label>신청 과목(자격)</label>
+                    <input type="radio" id="toiec" value="toiec" name="eng">
+                    <label for="toiec">TOEIC</label>
+                    <input type="radio" id="toefl" value="toefl" name="eng">
+                    <label for="toefl">TOEFL</label>
+                    <input type="radio" id="opic" value="opic" name="eng">
+                    <label for="opic">OPIC</label>
+                </li>
+                <li>
+                    <label for="interest">관심분야</label>
+                    <input type="text" id="interest" name="interest">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>강의 시간을 선택하세요</legend>
+            <ul>
+                <li>
+                    <label for="begin-course">개강 주</label>
+                    <input type="date" id="begin-course">
+                </li>
+                <li>
+                    <label for="course-time">강의 시간</label>
+                    <input type="text" id="course-time">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>

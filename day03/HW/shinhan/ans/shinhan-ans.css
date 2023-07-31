@@ -1,0 +1,59 @@
+#wrap {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    border: 1px solid rgb(102, 102, 102);
+    background-color: rgb(204, 255, 255);
+}
+
+nav {
+    background-color: pink;
+}
+
+div.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: black;
+}
+
+aside {
+    width: 25%;
+    background-color: skyblue;
+}
+
+aside ul li {
+    list-style: none;
+}
+
+aside ul li a {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+article {
+    width: 70%;
+    background-color: lightyellow;
+}
+
+footer {
+    background-color: skyblue;
+}
+
+footer p {
+    padding: 30px 10px;
+}
