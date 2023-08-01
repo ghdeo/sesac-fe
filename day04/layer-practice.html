@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .wrap {
+            width: 90%;
+            padding: 30px;
+            border: 1px solid silver;
+        }
+
+        header {
+            border: 1px solid silver;
+            margin-bottom: 20px;
+        }
+
+        header, aside, article, footer {
+            border: 1px solid silver;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        #aside-1 {
+            margin-right: 30px;
+        }
+
+        #aside-2 {
+            margin-left: 30px;
+        }
+        section {
+            width: 50%;
+        }
+
+        aside {
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>3단 레이어</h1>
+        </header>
+
+        <div class="main">
+            <aside id="aside-1">
+                <h3>사이드바1</h3>
+                <ul>
+                    <li>목록1</li>
+                    <li>목록2</li>
+                    <li>목록3</li>
+                </ul>
+            </aside>
+
+            <article>
+                <h2>내용</h2>
+                <p>내용1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid animi aspernatur aut dolor eos explicabo fuga inventore laborum magnam magni maxime, natus optio perferendis placeat quisquam rem! Consequatur, sint?</p>
+                <p>내용2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid animi aspernatur aut dolor eos explicabo fuga inventore laborum magnam magni maxime, natus optio perferendis placeat quisquam rem! Consequatur, sint?</p>
+                <p>내용3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid animi aspernatur aut dolor eos explicabo fuga inventore laborum magnam magni maxime, natus optio perferendis placeat quisquam rem! Consequatur, sint?</p>
+            </article>
+
+            <aside id="aside-2">
+                <h3>사이드바2</h3>
+                <ul>
+                    <li>목록2-1</li>
+                    <li>목록2-2</li>
+                    <li>목록2-3</li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Copyright</p>
+        </footer>
+    </div>
+</body>
+</html>

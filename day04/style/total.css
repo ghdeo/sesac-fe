@@ -1,0 +1,19 @@
+/*@media screen {*/
+/*    body {*/
+/*        background-color: silver;*/
+/*    }*/
+
+/*    div {*/
+/*        border: 2px solid aqua;*/
+/*        background-color: aqua;*/
+/*    }*/
+/*}*/
+
+/*@media print {*/
+/*    div {*/
+/*        color: red;*/
+/*    }*/
+/*}*/
+
+@import url(screen.css) screen;
+@import url(print.css) print;

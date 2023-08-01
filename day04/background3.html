@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div.linear {
+            width: 400px;
+            height: 400px;
+            border: 1px solid silver;
+            /*background: linear-gradient(to right, red, blueviolet);*/
+            background: linear-gradient(to top, mediumpurple, rebeccapurple 50%, mediumpurple);
+            /*background: radial-gradient(circle closest-side, white, blueviolet);*/
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid silver;
+            /*background-color: aqua;*/
+
+            float: left;
+            background: radial-gradient(circle, white, darkblue);
+        }
+
+        div.clear {
+            clear:both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="linear"></div>
+
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+
+    <div class="clear"></div>
+
+
+</body>
+</html>
