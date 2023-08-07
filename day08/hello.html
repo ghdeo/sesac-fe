@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        let name = 'hong gil dong';
+        // alert(name);
+        document.write('<p> name: ' + name + '</p>');
+    </script>
+</head>
+<body>
+    <input type="text" name="name" id="name">
+    <button type="button" id="btn">click</button>
+    <script>
+        document.getElementById('btn').onclick = function () {
+            let name = document.getElementById('name').value;
+            document.write('<p>' + name + '</p>');
+        };
+    </script>
+
+</body>
+</html>
