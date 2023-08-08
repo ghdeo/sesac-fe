@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 // //호이스팅
 //
@@ -14,7 +14,7 @@ let a = 10;
     console.log('block-a', a);
 }
 
-console.log('global-a', a)
+console.log('global-a', a);
 
 
 //
@@ -24,7 +24,7 @@ console.log('global-a', a)
 //     console.log('block-su', a);
 // }
 
-console.log('global-su', a)
+console.log('global-su', a);
 
 console.log('------------');
 
