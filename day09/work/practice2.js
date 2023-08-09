@@ -7,11 +7,11 @@ document.getElementById('add').onclick = () => {
 };
 
 document.getElementById('show').onclick = () => {
-    for (let val of arr) {
-        document.getElementById('list').innerHTML += `<li>${val.name}, ${val.age}</li>`;
-    }
+    // for (let val of arr) {
+    //     document.getElementById('list').innerHTML += `<li>${val.name}, ${val.age}</li>`;
+    // }
 
-    // document.getElementById('list').innerHTML = arr.map((val) => {
-    //     return `<li>${val.name}, ${val.age}</li>`;
-    // }); ?
+    document.getElementById('list').innerHTML = arr.map((val) => {
+        return `<li>${val.name}, ${val.age}</li>`;
+    }).join('');
 };
