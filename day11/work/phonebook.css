@@ -1,0 +1,29 @@
+#input {
+    width: 70vw;
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 1vh 2vw;
+    margin-bottom: 1vh;
+
+}
+
+#list {
+    width: 80vw;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list li a {
+    width: 78vw;
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    display: block;
+}
+
+#list li a:hover {
+    background-color: #eee;
+}
